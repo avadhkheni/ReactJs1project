@@ -1,0 +1,38 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.Navbar{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+    background-color: cornflowerblue;
+    height:calc(100vh - 92vh) ;
+    position: fixed;
+    z-index: 100;
+}
+
+.Navbar ul {
+    display: flex;
+    gap: 30px;
+}
+
+.sidebar{
+    width: 18%;
+    background-color: darkseagreen;
+    height: 92vh;
+    position: fixed;
+    top: calc(100vh - 92vh);
+}
+
+.div-3{
+    margin-left: 18%;
+    position: relative;
+    top: calc(100vh - 92vh);
+    overflow-y: auto;
+} */
