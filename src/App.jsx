@@ -5,6 +5,7 @@ import './App.css'
 import DataShow from './components/DataShow';
 // import ShowData from './components/ShowData';
 import Company from './components/Company';
+import Counter from './components2/Counter';
 
 
 const App = () => {
@@ -31,7 +32,8 @@ const App = () => {
 {/* <Navbar/> */}
 <DataShow name1={name} arr1={arr}/>
 {/* <ShowData obj1={obj}/>  */}
-<Company employee1={employee}/>    
+<Company employee1={employee}/>  
+<Counter/>  
     </div>
   )
 }
