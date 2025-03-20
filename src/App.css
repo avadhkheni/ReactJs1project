@@ -41,3 +41,21 @@
 .read-the-docs {
   color:#888;
 } 
+.cont {
+  background-color:rgb(95, 119, 160);
+  border-radius: 30px;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.row p ,.btn1,.btn2{
+font-size: 20px;
+font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.btn1,.btn2{
+  margin: 20px;
+  padding: 15px 25px;
+  border-radius: 50px;
+  background-color: cornflowerblue;
+}
