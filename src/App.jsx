@@ -6,6 +6,9 @@ import DataShow from './components/DataShow';
 // import ShowData from './components/ShowData';
 import Company from './components/Company';
 import Counter from './components2/Counter';
+import Comment from './components3/Comment';
+import MultipleField from './component4/MultipleField';
+import MultipleFiles from './component4/MultipleFiles';
 
 
 const App = () => {
@@ -33,7 +36,11 @@ const App = () => {
 <DataShow name1={name} arr1={arr}/>
 {/* <ShowData obj1={obj}/>  */}
 <Company employee1={employee}/>  
-<Counter/>  
+<Counter/> 
+<Comment/> 
+<MultipleField/> 
+<MultipleFiles/> 
+
     </div>
   )
 }
